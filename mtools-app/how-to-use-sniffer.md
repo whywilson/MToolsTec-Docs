@@ -1,4 +1,4 @@
-# How To Use Sniffer
+# 如何使用嗅探
 
 Depending on the Firebase of MTools, only 15% of MTools users have used Sniffer functions of MTools. It's really an easy tool for comparison and analysis. In this article, I'll show the tutorial of how to use Sniffer in MTools.
 

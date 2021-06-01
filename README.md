@@ -1,165 +1,161 @@
 ---
-description: Guide book for MTools app.
+description: MTools 使用指南
 ---
 
-# Help & Info - MTools
+# 帮助与信息 - MTools
 
-## 1.Overview
+## 1.概述
 
-MTools is a Material Design APP to easily read, write, analyze and charge `Mifare Classic` Tag. What you need firstly:
+MTools 是一款可轻松读取、写入、分析和重置 Mifare Classic 标签的 Material 设计 APP。
 
-1. `Mifare 1K`Supported Device.  
-   * Inner NFC
+你首先需要什么：
+
+1. 支持读写 `Mifare 1K`的设备 
+   * 内置 NFC
    * USB:  `ACR122U`   `PN532`
-   * Bluetooth:  `PN532`
-2. KeyA and keyB of the sector. 
+   * 蓝牙:  `PN532`
+2. 扇区的密钥A与密钥B
 
-**Please comply with local laws, only used for study and testing.**
+**请遵守当地法律，仅作学习与测试使用！**
 
-## 2.YouTube Chanel
+## 2.YouTube 频道
 
 * [Use MTools to read/write/clone data on Mi Band 3 NFC](https://youtu.be/1Bl-FFALNic)
 * [Hack Mifare 1K Card without ACR122U only MTools](https://youtu.be/hEwhJWAt3a8)
 * [Burst Attack Mifare 1K Card with MKeys on NFC Android Phone](https://youtu.be/CKSBDwRg7Wo)
 
-## 3. Lists
+## 3. 列表
 
-### 3.1 Add Card
+### 3.1 添加卡片
 
-Click the **+ floating button** will display `Add Card Dialog`, put the Mifare Classic Card close to the NFC antenna, then you can add a card to the APP.
+点击 **+ 浮动按钮** 将会显示添加卡片的对话框，将 Mifare Classic 标签靠近 NFC天线即可。
 
-### 3.2 Remove Card
+### 3.2 移除卡片
 
-Slide the item toward the right to remove the card.
+向右滑动卡片项。
 
-### 3.3 Sort Card
+### 3.3 卡片排序
 
-Press and drag to sort cards.
+长按并拖动以重新给卡片排序。
 
-### 3.4 Filter Card
+### 3.4 卡片过滤
 
-Drag down the list to filter cards by name, UID, SAK, or DateTime.
+向下拖动可以根据名称、UID、SAK 或时间来过滤卡片。
 
-### 3.5 Import \*.mto File
+### 3.5 导入 \*.mto 文件
 
-\*.mto file is the specific JSON file that includes tag information, keys, and rules.
+\*.mto 文件是包含卡片信息，密钥和规则的特殊的 JSON 文件。
 
-### 3.6 Export File
+### 3.6 导出文件
 
-Supports exporting to  5 types: 
+Supports exporting to  5 types: 支持5种类型的文件导出
 
-* `*.mto` Includes card sectors, dumps, and rules.
-* `card-list.csv` Includes card, id, name, SAK, and DateTime.
-* `keys.txt` Includes all keys added.
-* `sniffer.csv` Includes all sniffer records.
-* `record.csv` Includes all charging records.
+* `*.mto` 包括扇区，专车与规则
+* `card-list.csv` 包括卡片id、名称、SAK和时间
+* `keys.txt` 包括所有添加的密钥
+* `sniffer.csv` 包括所有的嗅探记录
+* `record.csv` 包括所有的充值记录
 
 ## 4. Details
 
-![](.gitbook/assets/button_func.jpeg)
+![](.gitbook/assets/button_func%20%281%29.jpeg)
 
-### 4.1 Add & Remove Sector
+### 4.1 添加 & 移除扇区
 
-🆕Click the  **+** floating butto**n** and choose `Add 1 Sector`, select the sector number by sliding the picker, and enter 6 bytes \(12 characters\) valid key A or key B, click `Complete` to save.
+🆕点击  **+** 浮动按钮并选择 `添加扇区` ，再滑动滑块选择扇区号，并填入有效的密钥A 与密钥B，均为 6 个字节\(12个字符\) 。
 
-◀Slide the item toward the right to remove the sector and keys.
+◀向右滑动扇区项以移除扇区和密钥。
 
-### 4.2 Modify Key
+### 4.2 修改密钥
 
-Click the  **modify button**  will display the `Modify Key Dialog`, select new sector number by sliding the picker, and modify the 6 bytes \(12 digits or letters\) valid key A or key B, click `Complete`save new keys or sector.
+点击 **修改按钮** 将会显示修改密钥对话框， 此时可选择新的扇区或修改现有密钥， 密钥为6个字节\(12个字符\)或为空。点击**完成**保存密钥和扇区号。
 
-### 4.3 Read Sector
+### 4.3 读取扇区
 
-After the card is close to the NFC antenna, click on the **read button** will read 4 blocks of data from the clicked sector, you can modify and write the new data.
+将卡片靠近NFC天线后，点击**读取扇区**按钮，将会显示改扇区的4个块数据。此时可修改并写入数据到卡片中。读写卡时请保持卡片靠近NFC天线。
 
-### 4.4 Manage Rule
+### 4.4 管理规则
 
 ![](.gitbook/assets/mt-handle-block.jpg)
 
-* Check on the checkbox for the block to handle.
-* Click on **MARK** to mark selected blocks.
-* Click on **COPY TO** to copy the rule to another card.
+* 选中块左侧的复现可以进行批量操作
+* 点击**标记按钮**可以开始标记数据
+* 点击**复制按钮**可以复制规则到其他块或其他卡片
 
-#### **4.4.1 Mark Money Byte**
+#### **4.4.1 标记数值位**
 
 ![](.gitbook/assets/mark_money.jpeg)
 
-Mark the byte, then verify the money is correct, and click Next.
+字节标记完成后，调节选项与倍率，数值正确后点击下一步。
 
-#### **4.4.2 Mark Checked Byte**
+#### **4.4.2 标记校验位**
 
 ![](.gitbook/assets/mark_check.jpeg)
 
-Check the bytes that change and add expressions. Make sure that it's correct then click OK.
+标记变化的字节并添加表达式，确保无误后点击OK。
 
-#### **4.4.2.1 Supported operations:**
+#### **4.4.2.1 已支持运算**
 
-> Basic: + - × ÷
+> 基础: + - × ÷
 >
-> Advanced : \#
+> 求余: \#
 >
-> Logical : xor not
+> 逻辑 : xor not
 >
 > CRC8: crc8, crc8cdma2000, crc8darc, crc8dvbs2, crc8ebu, crc8icode, crc8itu, crc8maxim, crc8rohc, crc8wcdma
 >
 > CRC16: crc16ccittfalse, crc16arc, crc16buypass, crc16cdma2000, crc16dds110, crc16dectr, crc16dectx, crc16dnp, crc16en13757, crc16genibus, crc16maxim, crc16mcrf4xx, crc16riello, crc16t10dif, crc16teledisk, crc16tms37157, crc16usb, crca, crc16kermit, crc16modbus, crc16x25, crc16xmodem
 
-[Know More &gt;&gt;](mtools-app/help-or-add-expression.md#example)
+[了解更多 &gt;&gt;](mtools-app/help-or-add-expression.md#example)
 
-#### **4.4.2.2 Sort Expressions**
+#### **4.4.2.2 表达式排序**
 
-Press and drag to sort Expressions.
+* 按住并上下拖动表达式
+* 运算顺序为从上至下
 
-The calculation is from top to end.
-
-### 4.5 Data Sniffer
+### 4.5 数据嗅探
 
 ![](.gitbook/assets/tips_sniffer.jpg)
 
-Must add correct keys before. After marked, it can be compared with highlight data.  
-Data Backups/Restore, Compare vertically, Rule Repository.
+注意：请先添加正确的密钥。字节标记完成后可以通过高亮的数据进行对比。
 
-### 4.6 Sort Sector
+### 4.6 扇区排序
 
-Press and drag to sort sector.
+长按并上下拖动即可重新排序。
 
-### 4.8 Import Dump
+### 4.8 导入转储
 
-Click the  **+** floating button, `Add Dump File` choose dump type then select file. The dump file type MTools support:
+点击  **+** 浮动按钮，点击添加转储后，选择文件类型。MTools 所支持的专车类型：
 
 * mfd
 * bin
 * MCT
 
-## 5. Read From Card
+## 5. 从卡片读取
 
-Click the  **+** floating button ****and choose `Read From Card`,  you can add more keys and try to read as much data as possible from the card, and then save it to a dump file.
+点击  **+** 浮动按钮并选择 **从卡片读取**， 此时可以添加更多的密钥并尝试读取卡片内尽可能多的数据，完成后可以保存数据到转储文件。
 
-### 5.1 Key List
+### 5.1 密钥列表
 
-Start with default keys and customed keys added by users
+启动时候会加载默认密钥与用户已添加的密钥。
 
-### 5.2 Start To Read
+### 5.2 开始读取
 
-Try to read as much as possible data with all keys in Key List.
+MTools 将会尝试使用密钥列表中的密钥读取卡片尽可能多的扇区数据。
 
-## 6. Charge
+## 6. 充值
 
-### 6.1 Set Quotas
+### 6.1 设置定额
 
-Click **+** button to change to **=** as Quotas. 
+点击 **+** 按钮可以切换成 **=** 定额。 
 
-### 6.2 Clear Record
+### 6.2 预览计算结果
 
-Long press **the recharge record list**, then pop up the dialog will allow you to clear the recharge record or not.
+长按**$浮动按钮**可以预览生成的数据和规则信息。
 
-### 6.3 Show Calculate Result
+## 7.依赖
 
-Long press the floating button to preview the data generated on **Rule**.
-
-## 7.Dependency
-
-Thanks to the friends for the contribution to the open-source community, regardless of rank.
+感谢以下朋友们对开源社区的贡献，排名不分先后。
 
 * `ikarus23` [MifareClassicTool](https://github.com/ikarus23/MifareClassicTool)  
 * `afollestad` [material-dialogs](https://github.com/afollestad/material-dialogs)  

@@ -1,6 +1,6 @@
-# Algorithm & Expression
+# 运算与表达式
 
-## Available Operator
+## 可用运算符
 
 | Name | Operator | Simple |
 | :---: | :--- | :--- |
@@ -11,12 +11,12 @@
 | or | @\| |  |
 | xor | @^ |  |
 | not | @~ |  |
-| Continuous summation | b1+b2+···+b14 | sum\(1:14\) |
-| Continuous XOR | b1 xor b2 xor ··· xor b10 | sum\(1:10\) |
-| Continuous logical AND | b1 and b2 and ··· and b14 | and\(1:14\) |
+| 连续求和 | b1+b2+···+b14 | sum\(1:14\) |
+| 连续异或 | b1 xor b2 xor ··· xor b10 | sum\(1:10\) |
+| 连续逻辑与 | b1 and b2 and ··· and b14 | and\(1:14\) |
 | CRC8/CRC16 | [Know more](https://why.yuyeye.cc/post/how-to-calculate-crc8-and-crc16-in-mtools/) | [Know more](https://why.yuyeye.cc/post/how-to-calculate-crc8-and-crc16-in-mtools/) |
 
-## Example
+## 示例
 
 | Rule | Expression |
 | :--- | :--- |
@@ -25,11 +25,11 @@
 | `b15 = b0 xor b1` | `b15 = b0 @^ b1` |
 | `b2= not b0` | b2 = @~b0 |
 
-* _Please convert the hexadecimal number to decimal_ 
-* _Drag expression up/down to change the sequence_
-* The calculation starts from the top to the end.
+* _请将十六进制数转化成十进制_
+* _上下拖动表达式有改变计算顺序_
+* _运算顺序为自上向下_
 
-## Extended Usage
+## 扩展用法
 
-Visit [mXparser](http://mathparser.org/?s=Bitwise) WebSite
+访问 [mXparser](http://mathparser.org/?s=Bitwise) 网站
 

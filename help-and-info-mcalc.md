@@ -1,20 +1,20 @@
 ---
-description: Guide book for MCalc app.
+description: MCalc使用指南
 ---
 
-# Help & Info - MCalc
+# 帮助与信息 - MCalc
 
-## What's this MCalc app for?
+## MCalc 的作用
 
-It is used to calculate HEX numbers with different logic calculations.
+它用于计算具有不同逻辑计算的十六进制数。
 
-## Basic Algorithms MCalc supports
+## MCalc 支持的基础运算
 
 * SUM
 * CHECKSUM
 * XOR
 
-## Advanced Algorithm MCalc supports
+## MCalc 支持的高级运算
 
 * CRC-8
   * CRC-8
