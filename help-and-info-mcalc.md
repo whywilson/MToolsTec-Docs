@@ -2,7 +2,7 @@
 description: MCalc使用指南
 ---
 
-# 帮助与信息 - MCalc
+# 帮助与信息 \| MCalc
 
 ## MCalc 的作用
 
