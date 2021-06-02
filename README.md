@@ -2,7 +2,7 @@
 description: MTools 使用指南
 ---
 
-# 帮助与信息 - MTools
+# 帮助与信息 \| MTools
 
 ## 1.概述
 
