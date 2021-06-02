@@ -40,10 +40,6 @@ MTools is a Material Design APP to easily read, write, analyze and charge `Mifar
 {% endtab %}
 {% endtabs %}
 
-
-
-
-
 ## 3. Lists
 
 ### 3.1 Add Card
