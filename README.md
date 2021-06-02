@@ -2,7 +2,7 @@
 description: Guide book for MTools app.
 ---
 
-# Help & Info - MTools
+# Help & Info \| MTools
 
 ## 1.Overview
 

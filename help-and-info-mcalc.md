@@ -2,7 +2,7 @@
 description: Guide book for MCalc app.
 ---
 
-# Help & Info - MCalc
+# Help & Info \| MCalc
 
 ## What's this MCalc app for?
 
