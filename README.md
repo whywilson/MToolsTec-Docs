@@ -125,11 +125,21 @@ Press and drag to sort sector.
 
 ### 4.8 Import Dump
 
-Click the  **+** floating button, `Add Dump File` choose dump type then select file. The dump file type MTools support:
+Click the  **+** floating button, `Add Dump File` choose dump type then select file. The dump file type MTools support: 
 
-* mfd
-* bin
-* MCT
+{% tabs %}
+{% tab title="mfd" %}
+Mifare Dump is a 1K size file that is read by PN532 with the libnfc tools.
+{% endtab %}
+
+{% tab title="bin" %}
+1K size file that is read from Mifare 1K card by Proxmark 3 devices.
+{% endtab %}
+
+{% tab title="mct" %}
+Text type dump file from`Mifare Classic Tools` app.
+{% endtab %}
+{% endtabs %}
 
 ## 5. Read From Card
 
