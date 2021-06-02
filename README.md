@@ -19,7 +19,7 @@ MTools is a Material Design APP to easily read, write, analyze and charge `Mifar
 ## 2.YouTube Chanel
 
 {% tabs %}
-{% tab title="Mifare 1K Card" %}
+{% tab title="Mifare Card" %}
 {% embed url="https://youtu.be/hEwhJWAt3a8" caption="Hack Mifare 1K Card without ACR122U" %}
 {% endtab %}
 
@@ -27,12 +27,16 @@ MTools is a Material Design APP to easily read, write, analyze and charge `Mifar
 {% embed url="https://youtu.be/AWc7gp8vUKw" caption="What\'s Magic Card and How to Clone" %}
 {% endtab %}
 
-{% tab title="Mi Band NFC" %}
+{% tab title="Mi Band" %}
 {% embed url="https://youtu.be/1Bl-FFALNic" caption="MTools read/write/clone data on Mi Band 3 NFC" %}
 {% endtab %}
 
 {% tab title="ACR122U" %}
 {% embed url="https://youtu.be/a7nUWIN7s-4" caption="Read card with ACR122U on Android phone" %}
+{% endtab %}
+
+{% tab title="PN532" %}
+{% embed url="https://youtu.be/dN9B6behg88" caption=" All-in-one PN532 \| USB & BLE" %}
 {% endtab %}
 {% endtabs %}
 
