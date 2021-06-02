@@ -66,5 +66,7 @@ Supported CRC16 algorithm in MTools.
 
 ## CRC-8 / CRC16 in Sniffer
 
-The expression of the last byte `b15` is CRC-8/MAXIM, and the results are calculated correctly in a second. 
+The expression of the last byte `b15` is `CRC-8/MAXIM`, and the results are calculated correctly in a second. 
+
+![](../.gitbook/assets/1559024659102-1.png)
 
