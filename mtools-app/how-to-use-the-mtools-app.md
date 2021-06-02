@@ -28,7 +28,7 @@ The 4th block of every sector contains
 
 ## Record data from in sniffer
 
-With sector number and valid keys added, it can be easy to compare data with different money amounts.
+With sector numbers and valid keys added, it can be easy to compare data with different money amounts.
 
 Mark the money bytes\(contain money data\) and check bytes\(mostly the changing bytes\)
 

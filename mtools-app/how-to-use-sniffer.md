@@ -5,8 +5,7 @@ Depending on the Firebase of MTools, only 15% of MTools users have used Sniffer 
 ## Why Need Sniffer
 
 After getting the keys of a sector which contains valid data, we need to compare data in different amount. So I made the Sniffer in MTools to gather and compare data more easily.  
- The light pink and light-blue background show if the bytes change.  
- 
+The light pink and light-blue background show if the bytes change.
 
 ![](https://why.yuyeye.cc/post-images/1574347906909.jpg)
 
