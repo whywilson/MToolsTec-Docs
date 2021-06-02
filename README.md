@@ -56,7 +56,7 @@ Supports exporting to  5 types: 支持5种类型的文件导出
 * `sniffer.csv` 包括所有的嗅探记录
 * `record.csv` 包括所有的充值记录
 
-## 4. Details
+## 4. 详情
 
 ![](.gitbook/assets/button_func%20%281%29.jpeg)
 
@@ -127,9 +127,19 @@ Supports exporting to  5 types: 支持5种类型的文件导出
 
 点击  **+** 浮动按钮，点击添加转储后，选择文件类型。MTools 所支持的专车类型：
 
-* mfd
-* bin
-* MCT
+{% tabs %}
+{% tab title="mfd" %}
+全称为 Mifare Dump，此文件为 PN532 原生命令或相关程序读取到的 1K 转储文件
+{% endtab %}
+
+{% tab title="bin" %}
+此格式文件来自于 Proxmark 3 等设备读取出的 1k 转储文件
+{% endtab %}
+
+{% tab title="mct" %}
+此文件来自 Mifare Classic Tools 应用程序通过内置 nfc读取的带有扇区号的文本格式转储文件。
+{% endtab %}
+{% endtabs %}
 
 ## 5. 从卡片读取
 

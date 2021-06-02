@@ -12,7 +12,7 @@ Firstly, it's the Mifare Classic Tool that I used to write hex data back to Mifa
 
 ## Get the keys from all sectors
 
-Some cards using default keys like `FFFFFFFFFFFF` `000000000000` `A1B2C3D4E56F` etc, which you can try to dump keys with **Mifare Classic Tools** on the NFC android phone. If the card is not fullly encrypted, it can be cracked with an RFID device to burst crack. Like **ACR122U** or **PN532**.
+Some cards using default keys like `FFFFFFFFFFFF` `000000000000` `A1B2C3D4E56F` etc, which you can try to dump keys with **Mifare Classic Tools** on the NFC android phone. If the card is not fully encrypted, it can be cracked with an RFID device to burst crack. Like **ACR122U** or **PN532**.
 
 If the card is fully encrypted, only **PM3** can crack the keys.
 
@@ -46,7 +46,7 @@ MTools use [mXparser](http://mathparser.org/) to calculate expression in rules. 
 
 Before charging a card, an accurate simulation is necessary, just by a long click on the $ button after tag card.
 
-## One more thing
+## What's More
 
-MTools support work with an extra device like ACR122U, PN532, PN532 BLE, which means you can use the features on a phone without NFC hardware.
+MTools can work with an extra device like ACR122U, PN532, PN532 BLE, which means you can use the features on a phone without NFC hardware. MTools also supports Changing UID for Magic Cards with PN532 RFID Hardware.
 

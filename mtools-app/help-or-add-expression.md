@@ -2,19 +2,19 @@
 
 ## 可用运算符
 
-| Name | Operator | Simple |
+| Name | Operator | Example |
 | :---: | :--- | :--- |
 | + - × ÷ | + - \* / |  |
 | modulo | \# |  |
 | brackets | \( \) |  |
 | and | @& |  |
 | or | @\| |  |
-| xor | @^ |  |
-| not | @~ |  |
+| xor | @^ | b0 xor b1 |
+| not | @~ | not b3 |
 | 连续求和 | b1+b2+···+b14 | sum\(1:14\) |
 | 连续异或 | b1 xor b2 xor ··· xor b10 | sum\(1:10\) |
 | 连续逻辑与 | b1 and b2 and ··· and b14 | and\(1:14\) |
-| CRC8/CRC16 | [Know more](https://why.yuyeye.cc/post/how-to-calculate-crc8-and-crc16-in-mtools/) | [Know more](https://why.yuyeye.cc/post/how-to-calculate-crc8-and-crc16-in-mtools/) |
+| CRC8/CRC16 | [了解更多](ji-suan-crc8-crc16.md) |  |
 
 ## 示例
 
