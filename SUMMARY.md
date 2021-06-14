@@ -2,6 +2,7 @@
 
 * [帮助与信息 \| MTools](README.md)
 * [帮助与信息 \| MCalc](help-and-info-mcalc.md)
+* [帮助与信息 \| MTools Lite](bang-zhu-yu-xin-xi-mtools-lite.md)
 
 ## MTools <a id="mtools-app"></a>
 
