@@ -38,6 +38,10 @@ MTools is a Material Design APP to easily read, write, analyze and charge `Mifar
 
 ## 3. Lists
 
+When the tag card on the list page, the tag info dialog will pop up. It will show status and suggestions depending on your card type.
+
+![MTools Tag Info Dialog](.gitbook/assets/mtools-tag-info-dialog.png)
+
 ### 3.1 Add Card
 
 Click the **+ floating button** will display `Add Card Dialog`, put the Mifare Classic Card close to the NFC antenna, then you can add a card to the APP.
@@ -54,9 +58,11 @@ Press and drag to sort cards.
 
 Drag down the list to filter cards by name, UID, SAK, or DateTime.
 
-### 3.5 Import \*.mto File
+### 3.5 Import File
 
-\*.mto file is the specific JSON file that includes tag information, keys, and rules.
+* \*.mto file is the specific JSON file that includes tag information, keys, and rules.
+* \*.mfd \| \*.bin file is the Mifare dump file read by libnfc library.
+* \*.mct file is the dump file read by Mifare Classic Tool.
 
 ### 3.6 Export File
 
