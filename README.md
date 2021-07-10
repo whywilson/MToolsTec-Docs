@@ -26,6 +26,10 @@ MTools 是一款可轻松读取、写入、分析和重置 Mifare Classic 标签
 
 ## 3. 列表
 
+当在列表界面贴卡时，APP会自动检测卡片类型，并给出基本信息，状态和使用建议。
+
+![MTools &#x6807;&#x7B7E;&#x4FE1;&#x606F;&#x5BF9;&#x8BDD;&#x6846;](.gitbook/assets/mtools-tag-info-dialog.png)
+
 ### 3.1 添加卡片
 
 点击 **+ 浮动按钮** 将会显示添加卡片的对话框，将 Mifare Classic 标签靠近 NFC天线即可。
@@ -42,11 +46,15 @@ MTools 是一款可轻松读取、写入、分析和重置 Mifare Classic 标签
 
 向下拖动可以根据名称、UID、SAK 或时间来过滤卡片。
 
-### 3.5 导入 \*.mto 文件
+### 3.5 导入文件
 
-\*.mto 文件是包含卡片信息，密钥和规则的特殊的 JSON 文件。
+* \*.mto 文件是包含卡片信息，密钥和规则的特殊的 JSON 文件。
+* \*.mfd \| \*.bin 文件是由 libnfc库读取的 1K Mifare 转储文件。
+* \*.mct 文件是由 Mifare Classic Tools 读取的转储文件。
 
-### 3.6 导出文件
+### 3.6 
+
+### 导出文件
 
 Supports exporting to  5 types: 支持5种类型的文件导出
 
