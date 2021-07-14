@@ -52,13 +52,11 @@ MTools 是一款可轻松读取、写入、分析和重置 Mifare Classic 标签
 * \*.mfd \| \*.bin 文件是由 libnfc库读取的 1K Mifare 转储文件。
 * \*.mct 文件是由 Mifare Classic Tools 读取的转储文件。
 
-### 3.6 
-
-### 导出文件
+### 3.6 导出文件
 
 Supports exporting to  5 types: 支持5种类型的文件导出
 
-* `*.mto` 包括扇区，专车与规则
+* `*.mto` 包括扇区，密钥，转储与规则
 * `card-list.csv` 包括卡片id、名称、SAK和时间
 * `keys.txt` 包括所有添加的密钥
 * `sniffer.csv` 包括所有的嗅探记录
