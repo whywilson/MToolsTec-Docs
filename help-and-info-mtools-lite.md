@@ -4,11 +4,11 @@ description: Help & Info | MTools Lite
 
 # Help & Info \| MTools Lite
 
-## What's the MTools Lite for?
+## Introduction
 
 It is used to study RFID cards with inner NFC and external BLE RFID Reader.
 
-## Where to Download the App?
+## Download Link
 
 | iOS | Android |
 | :---: | :---: |
@@ -16,16 +16,42 @@ It is used to study RFID cards with inner NFC and external BLE RFID Reader.
 
 ## Supported Card Type by NFC
 
-There exist limits on Android and iOS devices.
+| Type | Android | iOS |
+| :---: | :---: | :---: |
+| Mifare Classic 1K | ✓ | ✘ |
+| Mifare Classic 4K | ✓ | ✘ |
+| DESFire | ✓ | ✓ |
+| Felica | ✓ | ✓ |
+| ISO7816 | ✓ | ✓ |
+| ISO15693 | ✓ | ✓ |
+| other ISO14443-4A | ✓ | ✓ |
 
 ## Supported Card Type by Reader
 
 | Type | PN532\_BLE |
 | :---: | :---: |
-| Mifare Classic 1K | √ |
-| Mifare Classic 4K | √ |
-| Felica | √ |
-| ISO14443-4A | √ |
-| Innovision Jewel | √ |
-|  |  |
+| Mifare Classic 1K | ✓ |
+| Mifare Classic 4K | ✓ |
+| Felica | ✓ |
+| ISO14443-4A | ✓ |
+| Innovision Jewel | ✓ |
+|  | \*\*\*\*[**Buy Now &gt;&gt;**](https://shop.mtoolstec.com/product/mtools-all-in-one-pn532) **** |
+
+## Terminal
+
+Terminal for MTools Lite is a friendly-designed feature for the beginner and professionals. It shortens the complex command and checks byte calculation. 
+
+### Video Guide
+
+{% embed url="https://www.youtube.com/watch?v=GgQkHbzhINI" %}
+
+### NXP Document
+
+[PN532 User Manual.pdf](https://www.nxp.com/docs/en/user-guide/141520.pdf)
+
+[PN532 Datasheet.pdf](https://www.nxp.com.cn/docs/en/nxp/data-sheets/PN532_C1.pdf)
+
+
+
+
 
