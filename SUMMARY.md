@@ -14,3 +14,7 @@
 
 ## MTools Lite
 
+---
+
+* [How To Unlock](how-to-unlock.md)
+
