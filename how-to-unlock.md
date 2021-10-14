@@ -24,11 +24,10 @@ MTools Lite app also supports the activation code for the MTools app. It can be 
 2. View all orders.
 3. Bind the device.
 
-![](.gitbook/assets/mtools-lite-link-device.jpg)
+![](.gitbook/assets/MTools-Lite-link-device.jpg)
 
 ### Why can not bind
 
 * Already unlocked.
 * There is no order contains MTools Activation Code.
 * Already bind on another device. It needs to unbind from the original device firstly.
-

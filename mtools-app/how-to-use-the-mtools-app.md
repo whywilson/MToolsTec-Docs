@@ -30,7 +30,7 @@ The 4th block of every sector contains
 
 With sector numbers and valid keys added, it can be easy to compare data with different money amounts.
 
-Mark the money bytes\(contain money data\) and check bytes\(mostly the changing bytes\)
+Mark the money bytes(contain money data) and check bytes(mostly the changing bytes)
 
 ## Compare and analyze the rules of dynamic bytes
 
@@ -40,7 +40,7 @@ Compare the Summation or XOR values with up and down check bytes.
 
 ## Finish the expression
 
-MTools use [mXparser](http://mathparser.org/) to calculate expression in rules. Please follow the tips in MTools to add expression.
+MTools use [mXparser](http://mathparser.org) to calculate expression in rules. Please follow the tips in MTools to add expression.
 
 ## Charge Mifare 1k  card with one click
 
@@ -49,4 +49,3 @@ Before charging a card, an accurate simulation is necessary, just by a long clic
 ## One more thing
 
 MTools support work with an extra device like ACR122U, PN532, PN532 BLE, which means you can use the features on a phone without NFC hardware.
-

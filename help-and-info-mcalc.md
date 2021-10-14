@@ -2,7 +2,7 @@
 description: Guide book for MCalc app.
 ---
 
-# Help & Info \| MCalc
+# Help & Info | MCalc
 
 ## What's this MCalc app for?
 
@@ -51,8 +51,6 @@ It is used to calculate HEX numbers with different logic calculations.
   * CRC-16/MODBUS
   * CRC-16/X-25
   * CRC-16/XMODEM
-
-
 
 
 
