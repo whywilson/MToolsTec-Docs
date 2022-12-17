@@ -44,7 +44,9 @@ Examples
    • b2=b1 ➡ b2=b1 
    • b4=b2+0x1F ➡ b4=b2+31(decimal) 
    • b15=b0 xor b1 ➡ b15=b0 xor b1 
-   • b2=not b0 ➡ b2=not b0 Note 
+   • b2=not b0 ➡ b2=not b0 
+
+Note 
    • Convert constant to decimal 
    • Drag up/down to change the order of calculation
 ```
@@ -53,7 +55,7 @@ Examples
 
 ![](https://why.yuyeye.cc/post-images/1574350100574.jpg)
 
-## Conclusion <a href="conclusion" id="conclusion"></a>
+## Conclusion <a href="#conclusion" id="conclusion"></a>
 
 If there is no **Strikethrough** on check bytes, it means all expressions are correct.\
- Now you know another tip of MTools.
+&#x20;Now you know another tip of MTools.
