@@ -1,10 +1,10 @@
 # Table of contents
 
-* [Help & Info \| MTools](README.md)
-* [Help & Info \| MCalc](help-and-info-mcalc.md)
-* [Help & Info \| MTools Lite](help-and-info-mtools-lite.md)
+* [Help & Info | MTools](README.md)
+* [Help & Info | MCalc](help-and-info-mcalc.md)
+* [Help & Info | MTools Lite](help-and-info-mtools-lite.md)
 
-## MTools <a id="mtools-app"></a>
+## MTools <a href="#mtools-app" id="mtools-app"></a>
 
 * [Simple Startup](mtools-app/how-to-use-the-mtools-app.md)
 * [How To Use Sniffer](mtools-app/tips-sniffer.md)
@@ -14,7 +14,7 @@
 
 ## MTools Lite
 
----
+***
 
 * [How To Unlock](how-to-unlock.md)
-
+* [How to use TAG Scanner](how-to-use-tag-scanner.md)
