@@ -6,16 +6,16 @@ description: >-
 
 # Change UID of Gen3 Magic Card
 
-### ## Gen3 Magic Card Introduction
+### Gen3 Magic Card Introduction
 
 The 3rd generation of magic cards is firstly supported by Proxmark3. The Gen3 Magic Cards include the cards below:
 
-* Mifare S70 with 7 Byte UID
-* Mifare S70 with 4 Byte UID
-* Mifare S50 with 7 Byte UID
-* Mifare S50 with 4 Byte UID
-* Mifare S20 with 7 Byte UID
-* Mifare S20 with 4 Byte UID
+* [Mifare S70 with 7 Byte UID](https://shop.mtoolstec.com/product/7-byte-uid-s70-4k-magic-key-fob)
+* [Mifare S70 with 4 Byte UID](https://shop.mtoolstec.com/product/4-byte-uid-s70-4k-magic-key-fob)
+* [Mifare S50 with 7 Byte UID](https://shop.mtoolstec.com/product/7-byte-uid-s50-1k-magic-key-fob)
+* [Mifare S50 with 4 Byte UID](https://shop.mtoolstec.com/product/uid-changeable-nfc-mifare-s50-keychain)
+* [Mifare S20 with 7 Byte UID](https://shop.mtoolstec.com/product/7-byte-uid-changeable-mifare-mini-s20-card)
+* [Mifare S20 with 4 Byte UID](https://shop.mtoolstec.com/product/4-byte-uid-changeable-mifare-mini-card)
 
 ### Supported Readers
 
@@ -48,3 +48,4 @@ The PCSC Program is a Windows Program for changing the UID of the Gen3 Magic car
 MTools Lite App supports changing the UID of the Gen1 and Gen3 Magic Card in the Terminal Tools. This can be the first App to change the UID of the gen3 Magic Card on both Android and iOS devices.
 
 <figure><img src=".gitbook/assets/MTools Lite Terminal.jpg" alt="" width="375"><figcaption><p>MTools Lite Terminal</p></figcaption></figure>
+
