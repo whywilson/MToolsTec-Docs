@@ -6,7 +6,7 @@ description: Help & Info | MTools Lite
 
 ## Introduction
 
-MTools Lite is used to study RFID cards with inner NFC and external Bluetooth LE RFID Reader. 
+MTools Lite is used to study RFID cards with inner NFC and external Bluetooth LE RFID Reader.&#x20;
 
 With inner NFC, you can read and write different types of tag depending on the Platform of your device. With the external Bluetooth LE RFID Reader, you can access all ISO1443-A Type tags with APDU command with optimized commands, also operate the UID changeable magic card with one click backdoor command.
 
@@ -31,18 +31,18 @@ With inner NFC, you can read and write different types of tag depending on the P
 
 ## Supported Card Type by Reader
 
-|        Type       |                                       PN532\_BLE                                      |
-| :---------------: | :-----------------------------------------------------------------------------------: |
-| Mifare Classic 1K |                                           ✓                                           |
-| Mifare Classic 4K |                                           ✓                                           |
-|       Felica      |                                           ✓                                           |
-|    ISO14443-4A    |                                           ✓                                           |
-|  Innovision Jewel |                                           ✓                                           |
-|                   | ****[**Buy Now >>**](https://shop.mtoolstec.com/product/mtools-all-in-one-pn532)** ** |
+|        Type       |                                   PN532\_BLE                                  |
+| :---------------: | :---------------------------------------------------------------------------: |
+| Mifare Classic 1K |                                       ✓                                       |
+| Mifare Classic 4K |                                       ✓                                       |
+|       Felica      |                                       ✓                                       |
+|    ISO14443-4A    |                                       ✓                                       |
+|  Innovision Jewel |                                       ✓                                       |
+|                   | [**Buy Now >>**](https://shop.mtoolstec.com/product/mtools-all-in-one-pn532)  |
 
 ## Terminal
 
-Terminal for MTools Lite is a friendly-designed feature for the beginner and professionals. It shortens the complex command and checks byte calculation. 
+Terminal for MTools Lite is a friendly-designed feature for the beginner and professionals. It shortens the complex command and checks byte calculation.&#x20;
 
 ### Video Guide
 

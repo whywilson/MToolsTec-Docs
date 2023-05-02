@@ -8,11 +8,11 @@ description: Guide book for MTools app.
 
 MTools is a Material Design APP to easily read, write, analyze and charge `Mifare Classic` Tag. What you need firstly:
 
-1. `Mifare 1K`Supported Device.  
+1. `Mifare 1K`Supported Device. &#x20;
    * Inner NFC
-   * USB:  `ACR122U`  ` PN532`
+   * USB:  `ACR122U`  `PN532`
    * Bluetooth:  `PN532`
-2. KeyA and keyB of the sector. 
+2. KeyA and keyB of the sector.&#x20;
 
 **Please comply with local laws, only used for study and testing.**
 
@@ -33,7 +33,7 @@ MTools read/write/clone data on Mi Band 3 NFC
 
 {% tab title="PN532" %}
 {% embed url="https://youtu.be/dN9B6behg88" %}
- All-in-one PN532 | USB & BLE
+&#x20;All-in-one PN532 | USB & BLE
 {% endembed %}
 {% endtab %}
 
@@ -74,7 +74,7 @@ Drag down the list to filter cards by name, UID, SAK, or DateTime.
 
 ### 3.6 Export File
 
-Supports exporting to  5 types: 
+Supports exporting to  5 types:&#x20;
 
 * `*.mto` Includes card sectors, dumps, and rules.
 * `card-list.csv` Includes card, id, name, SAK, and DateTime.
@@ -84,21 +84,21 @@ Supports exporting to  5 types:
 
 ## 4. Details
 
-![](.gitbook/assets/button_func.jpeg)
+![](.gitbook/assets/button\_func.jpeg)
 
 ### 4.1 Add & Remove Sector
 
-:new:Click the ** + **floating butto**n **and choose `Add 1 Sector`, select the sector number by sliding the picker, and enter 6 bytes (12 characters) valid key A or key B, click `Complete` to save.
+:new:Click the **+** floating butto**n** and choose `Add 1 Sector`, select the sector number by sliding the picker, and enter 6 bytes (12 characters) valid key A or key B, click `Complete` to save.
 
-:arrow_backward:Slide the item toward the right to remove the sector and keys.
+:arrow\_backward:Slide the item toward the right to remove the sector and keys.
 
 ### 4.2 Modify Key
 
-Click the ** modify button ** will display the `Modify Key Dialog`, select new sector number by sliding the picker, and modify the 6 bytes (12 digits or letters) valid key A or key B, click `Complete`save new keys or sector.
+Click the **modify button** will display the `Modify Key Dialog`, select new sector number by sliding the picker, and modify the 6 bytes (12 digits or letters) valid key A or key B, click `Complete`save new keys or sector.
 
 ### 4.3 Read Sector
 
-After the card is close to the NFC antenna, click on the** read button **will read 4 blocks of data from the clicked sector, you can modify and write the new data.
+After the card is close to the NFC antenna, click on the **read button** will read 4 blocks of data from the clicked sector, you can modify and write the new data.
 
 ### 4.4 Manage Rule
 
@@ -106,17 +106,17 @@ After the card is close to the NFC antenna, click on the** read button **will re
 
 * Check on the checkbox for the block to handle.
 * Click on **MARK** to mark selected blocks.
-* Click on **COPY TO **to copy the rule to another card.
+* Click on **COPY TO** to copy the rule to another card.
 
 #### **4.4.1 Mark Money Byte**
 
-![](.gitbook/assets/mark_money.jpeg)
+![](.gitbook/assets/mark\_money.jpeg)
 
 Mark the byte, then verify the money is correct, and click Next.
 
 #### **4.4.2 Mark Checked Byte**
 
-![](.gitbook/assets/mark_check.jpeg)
+![](.gitbook/assets/mark\_check.jpeg)
 
 Check the bytes that change and add expressions. Make sure that it's correct then click OK.
 
@@ -142,7 +142,7 @@ The calculation is from top to end.
 
 ### 4.5 Data Sniffer
 
-![](<.gitbook/assets/ tips_sniffer.jpg>)
+![](<.gitbook/assets/ tips\_sniffer.jpg>)
 
 Must add correct keys before. After marked, it can be compared with highlight data.\
 Data Backups/Restore, Compare vertically, Rule Repository.
@@ -153,7 +153,7 @@ Press and drag to sort sector.
 
 ### 4.8 Import Dump
 
-Click the ** + **floating button, `Add Dump File` choose dump type then select file. The dump file type MTools support: 
+Click the **+** floating button, `Add Dump File` choose dump type then select file. The dump file type MTools support:&#x20;
 
 {% tabs %}
 {% tab title="mfd" %}
@@ -171,7 +171,7 @@ Text type dump file from`Mifare Classic Tools` app.
 
 ## 5. Read From Card
 
-Click the ** + **floating button** **and choose `Read From Card`,  you can add more keys and try to read as much data as possible from the card, and then save it to a dump file.
+Click the **+** floating button and choose `Read From Card`,  you can add more keys and try to read as much data as possible from the card, and then save it to a dump file.
 
 ### 5.1 Key List
 
@@ -185,7 +185,7 @@ Try to read as much as possible data with all keys in Key List.
 
 ### 6.1 Set Quotas
 
-Click **+ **button to change to **=** as Quotas. 
+Click **+** button to change to **=** as Quotas.&#x20;
 
 ### 6.2 Clear Record
 
@@ -199,9 +199,9 @@ Long press the floating button to preview the data generated on **Rule**.
 
 Thanks to the friends for the contribution to the open-source community, regardless of rank.
 
-* `ikarus23` [MifareClassicTool](https://github.com/ikarus23/MifareClassicTool)  
-* `afollestad` [material-dialogs](https://github.com/afollestad/material-dialogs)  
-* `markormesher` [android-fab](https://github.com/markormesher/android-fab)  
-* `didikee` [AndroidDonate](https://github.com/didikee/AndroidDonate)  
-* `Ice-Box` [Ice-Box](http://catchingnow.com)  
+* `ikarus23` [MifareClassicTool](https://github.com/ikarus23/MifareClassicTool) &#x20;
+* `afollestad` [material-dialogs](https://github.com/afollestad/material-dialogs) &#x20;
+* `markormesher` [android-fab](https://github.com/markormesher/android-fab) &#x20;
+* `didikee` [AndroidDonate](https://github.com/didikee/AndroidDonate) &#x20;
+* `Ice-Box` [Ice-Box](http://catchingnow.com) &#x20;
 * `uccmawei` [FingerprintIdentify](https://github.com/uccmawei/FingerprintIdentify)

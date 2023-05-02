@@ -40,7 +40,7 @@ Compare the Summation or XOR values with up and down check bytes.
 
 ## Finish the expression
 
-MTools use [mXparser](http://mathparser.org) to calculate expression in rules. Please follow the tips in MTools to add expression.
+MTools use [mXparser](http://mathparser.org/) to calculate expression in rules. Please follow the tips in MTools to add expression.
 
 ## Charge Mifare 1k  card with one click
 

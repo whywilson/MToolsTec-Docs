@@ -18,3 +18,4 @@
 
 * [How To Unlock](how-to-unlock.md)
 * [How to use TAG Scanner](how-to-use-tag-scanner.md)
+* [Change UID of Gen3 Magic Card](change-uid-of-gen3-magic-card.md)

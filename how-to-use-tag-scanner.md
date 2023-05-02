@@ -16,10 +16,15 @@ description: >-
 
 1. Connect reader in MTools Lite App.
 2. Enter Tool > TAG Scanner.
-3. Wait for the power icon turn to green.
+3. Wait for the power icon turn to <mark style="color:green;">**green**</mark>.
 4. Click the PAUSE button to the **PLAY** button.
+
+<figure><img src=".gitbook/assets/MTools Lite TAG Scanner.jpg" alt="" width="375"><figcaption><p>TAG Scanner - PN532 - MTools Lite</p></figcaption></figure>
 
 ### Share TAG Records
 
 1. Click the LABEL button to show TAG Records
 2. Click the TAG Records to share the number ID, UID, and ID as text content.
+
+<figure><img src=".gitbook/assets/MTools Lite TAG Scanner Label.jpg" alt="" width="375"><figcaption><p>TAG Scanner Labels - PN532 - MTools Lite</p></figcaption></figure>
+
