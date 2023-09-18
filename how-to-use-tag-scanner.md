@@ -1,7 +1,8 @@
 ---
 description: >-
-  Tag Scanner is a PN532-based features which can be used to scan the UID of
-  13.56MHz Tags and tag list can be shared.
+  Tag Scanner is used to scan the UID of 13.56MHz Tags and the tag list can be
+  shared. The function is based on PN532 BLE reader and the Chameleon Ultra
+  device in reader mode.
 ---
 
 # How to use TAG Scanner
@@ -11,6 +12,8 @@ description: >-
 1. [All-in-one PN532](https://shop.mtoolstec.com/product/mtools-all-in-one-pn532)  - The PN532 Reader with Bluetooth Extension Board.
 2. [PCR532](https://shop.mtoolstec.com/product/pcr532) - The smallest PN532 Reader with Bluetooth.
 3. [DIY PN532 Board with Bluetooth Module.](https://shop.mtoolstec.com/how-to-make-pn532-work-on-bluetooth.html)
+4. [Chameleon Ultra](https://shop.mtoolstec.com/product/chameleon-ultra)
+5. [Chameleon Ultra Dev Kit](https://shop.mtoolstec.com/product/chamleonultra-dev-kit)
 
 ### Steps to Scan Tag
 
