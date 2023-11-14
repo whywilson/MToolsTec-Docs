@@ -6,6 +6,7 @@
 
 ## MTools <a href="#mtools-app" id="mtools-app"></a>
 
+* [How to use Terminal for ACR122U](mtools-app/how-to-use-terminal-for-acr122u.md)
 * [Simple Startup](mtools-app/how-to-use-the-mtools-app.md)
 * [How To Use Sniffer](mtools-app/tips-sniffer.md)
 * [Algorithm & Expression](mtools-app/help-or-add-expression.md)
