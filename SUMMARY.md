@@ -6,12 +6,12 @@
 
 ## MTools <a href="#mtools-app" id="mtools-app"></a>
 
-* [How to use Terminal for ACR122U](mtools-app/how-to-use-terminal-for-acr122u.md)
 * [Simple Startup](mtools-app/how-to-use-the-mtools-app.md)
 * [How To Use Sniffer](mtools-app/tips-sniffer.md)
 * [Algorithm & Expression](mtools-app/help-or-add-expression.md)
 * [CRC-8 & CRC-16](mtools-app/crc-8-and-crc-16.md)
 * [Mifare Classic Tool vs MTools](mtools-app/mtools-vs-mifare-classic-tool.md)
+* [Terminal for ACR122U & PN532](mtools-app/terminal-for-acr122u-and-pn532.md)
 
 ## MTools Lite
 
