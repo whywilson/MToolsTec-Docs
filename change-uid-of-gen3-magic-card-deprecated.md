@@ -4,11 +4,15 @@ description: >-
   BLE reader and the built-in terminal tools with one click.
 ---
 
-# Change UID of Gen3 Magic Card
+# Change UID of Gen3 Magic Card(Deprecated)
+
+### ## Notice
+
+The UID Changing functions for Gen3 have been upgraded to [UID Changer](how-to-use-uid-changer.md).&#x20;
 
 ### Gen3 Magic Card Introduction
 
-The 3rd generation of magic cards is firstly supported by Proxmark3. The Gen3 Magic Cards include the cards below:
+Proxmark3 firstly supports the 3rd generation of magic cards. The Gen3 Magic Cards include the cards below:
 
 * [Mifare S70 with 7 Byte UID](https://shop.mtoolstec.com/product/7-byte-uid-s70-4k-magic-key-fob)
 * [Mifare S70 with 4 Byte UID](https://shop.mtoolstec.com/product/4-byte-uid-s70-4k-magic-key-fob)

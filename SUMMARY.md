@@ -20,4 +20,5 @@
 * [How To Unlock](how-to-unlock.md)
 * [How To Use ChameleonUltra](how-to-use-chameleonultra.md)
 * [How to use TAG Scanner](how-to-use-tag-scanner.md)
-* [Change UID of Gen3 Magic Card](change-uid-of-gen3-magic-card.md)
+* [How to use UID Changer](how-to-use-uid-changer.md)
+* [Change UID of Gen3 Magic Card(Deprecated)](change-uid-of-gen3-magic-card-deprecated.md)
