@@ -14,7 +14,7 @@ description: >-
 ### Connections of ChameleonUltra
 
 * Bluetooth - Support BLE on Both Android and iOS.
-* USB - Support dual side plugging USB cable.
+* USB - Support dual-side plugging USB cable.
 
 ### How to connect with Bluetooth in MTools Lite
 
@@ -28,6 +28,15 @@ description: >-
 2. Allow Location permission to scan Bluetooth devices on Android.
 
 ### Functions for ChameleonUltra in MTools Lite
+
+#### Command Line Tool
+
+1. Quick action buttons
+2. Battery indicator
+3. Mifare Magic Checker
+4. `hf 14a raw` Supports
+
+<figure><img src=".gitbook/assets/Chameleon Ultra Terminal.jpg" alt=""><figcaption></figcaption></figure>
 
 #### Slot Manager
 
