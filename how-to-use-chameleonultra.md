@@ -37,19 +37,25 @@ description: >-
 4. Set LF and HF Tag Type.
 5. Delete and reset all slots.
 
+<figure><img src=".gitbook/assets/Chameleon Ultra Slot Manage.jpg" alt=""><figcaption></figcaption></figure>
+
 #### Reader
 
 1. Fast-read LF and HF Tag.
 2. Simulate Mifare Classic Tag with UID, SAK, ATQA, and empty dump.
 3. Simulate the EM410X LF tag or manually set the ID then simulate.
 
+
+
 #### Dumps
 
 1. Mifare Keys Manage.
 2. Get a dump of Mifare Classic Mini, 1K, 2K, and 4K with known keys.
-3. Modify block data and save to a new dump file.
+3. Modify block data and save it to a new dump file.
 4. Do a quick simulation of the current active slot.
 5. Upload the full dump to the current active slot.
+
+<figure><img src=".gitbook/assets/Chameleon Ultra Dump Manage.jpg" alt=""><figcaption></figcaption></figure>
 
 #### Settings
 
@@ -58,3 +64,5 @@ description: >-
 3. Set the **Mifare Classic Emulation** of the current slot.
 4. Enter DFU Mode.
 5. Reset Chameleon Device.
+
+<figure><img src=".gitbook/assets/Chameleon Ultra Mifare Configuration.jpg" alt=""><figcaption></figcaption></figure>
