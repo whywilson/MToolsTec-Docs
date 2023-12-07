@@ -20,6 +20,4 @@ The Python-based CLI only supports writing single blocks for the moment. With MT
 
 1. Connect Chameleon Ultra with MTools BLE
 2. Import Mifare Dump with mct, bin or json file.
-3. Write dump to magic cards
-
-Add tag…\
+3. Write dump to magic cards\
