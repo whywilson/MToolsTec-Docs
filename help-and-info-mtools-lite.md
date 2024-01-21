@@ -2,11 +2,11 @@
 description: Help & Info | MTools Lite
 ---
 
-# Help & Info | MTools Lite
+# Help & Info | MTools BLE
 
 ## Introduction
 
-MTools Lite is used to study RFID cards with inner NFC and external Bluetooth LE RFID Reader.&#x20;
+MTools BLE is used to study RFID cards with inner NFC and external Bluetooth LE RFID Reader.&#x20;
 
 With inner NFC, you can read and write different types of tag depending on the Platform of your device. With the external Bluetooth LE RFID Reader, you can access all ISO1443-A Type tags with APDU command with optimized commands, also operate the UID changeable magic card with one click backdoor command.
 
@@ -56,7 +56,7 @@ Terminal for MTools Lite is a friendly-designed feature for the beginner and pro
 
 ## HEX Calculator
 
-MTools Lite app can calculate different types of check bytes automatically, which includes **SUM**, **XOR**, **AND**, **CS**(CheckSum).
+MTools BLE app can automatically calculate different types of check bytes, including **SUM**, **XOR**, **AND**, and **CS**(CheckSum).
 
 ## BCC Calculator
 
@@ -64,5 +64,5 @@ BCC stands for Block Check Character, which is the XOR value of the UID of the M
 
 ## ACS Decoder
 
-ACS stands for Access Bits Controller of the Mfiare Classic 1K/4K tag. Fill in the 3 bits of sector trailer, MTools app will show the permission of KeyA and KeyB while rea
+ACS stands for Access Bits Controller of the Mfiare Classic 1K/4K tag. Fill in the 3 bits of the sector trailer, MTools app will show the permission of KeyA and KeyB while rea
 
