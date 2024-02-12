@@ -64,5 +64,23 @@ BCC stands for Block Check Character, which is the XOR value of the UID of the M
 
 ## ACS Decoder
 
-ACS stands for Access Bits Controller of the Mfiare Classic 1K/4K tag. Fill in the 3 bits of the sector trailer, MTools app will show the permission of KeyA and KeyB while rea
+ACS stands for Access Bits Controller of the Mfiare Classic 1K/4K tag. Fill in the 3 bits of the sector trailer, MTools app will show the permission of KeyA and KeyB while reading and writing the Mifare Sector.
+
+## UID Changer
+
+Support change the UID of Magic card from Gen1A, Gen2, Gen3 and Gen4. The functions support on the ChameleonUltra and PN532 Reader.
+
+[Learn how to use UID Changer](how-to-use-uid-changer.md)
+
+### Chameleon Ultra
+
+MTools BLE supports GUI and CLI for ChameleonUltra, ChameleonUltra SE and   ChameleonLite.&#x20;
+
+[Learn how to use ChameleonUltra with MTools BLE](how-to-use-chameleonultra.md)
+
+### Pixl.js Tool
+
+MTools BLE can manage the file and dump on Pixl.js devices. Also the firmware of Pixl.js OLED and LCD can be upgrade easily.
+
+[Learn how to upgrade the firmware of Pixl.js with MTools BLE](upgrade-the-firmware-of-pixl.js.md)&#x20;
 
