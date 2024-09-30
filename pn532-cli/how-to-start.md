@@ -31,3 +31,7 @@ python pn532_cli_main.py
 ```arduino
 hw connect
 ```
+
+{% embed url="https://youtu.be/vJWdFYFY1zI" %}
+PN532 Python CLI
+{% endembed %}
