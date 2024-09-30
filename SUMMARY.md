@@ -29,3 +29,4 @@
 ## PN532 CLI
 
 * [How to Start](pn532-cli/how-to-start.md)
+* [NTAG Emulate](pn532-cli/ntag-emulate.md)
