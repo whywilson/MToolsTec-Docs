@@ -2,9 +2,9 @@
 
 MTools BLE provides the unified operation method for Android and iOS clients, and provides convenient features such as fast firmware download and one-click upgrade for nRF52 device DFU.
 
-### Downloads
-
 <figure><img src=".gitbook/assets/MTools-BLE-GT562-Flash-Firmware-1536x1152.jpeg.webp" alt=""><figcaption><p>GAT562 OTA on MTools BLE</p></figcaption></figure>
+
+### Downloads
 
 * [Play Store](https://play.google.com/store/apps/details?id=com.mtoolstec.mtoolsLite)
 * [App Store](https://apps.apple.com/us/app/mtools-lite/id1531345398)
