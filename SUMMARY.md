@@ -25,6 +25,7 @@
 * [Change UID of Gen3 Magic Card(Deprecated)](change-uid-of-gen3-magic-card-deprecated.md)
 * [Upgrade the firmware of ChameleonUltra and ChameleonLite](upgrade-the-firmware-of-chameleonultra-and-chameleonlite.md)
 * [Upgrade the firmware of Pixl.js](upgrade-the-firmware-of-pixl.js.md)
+* [nRF52 OTA Firmware Updates](nrf52-ota-firmware-updates.md)
 
 ## PN532 CLI
 
