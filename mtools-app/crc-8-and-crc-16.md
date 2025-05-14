@@ -7,7 +7,7 @@ CRC - Cyclic Redundancy Check is widely used in data transition. According to `w
 
 It's really hard to calculate CRC value by hand, so we add CRC8 & CRC16 algorithm in [MTools](https://play.google.com/store/apps/details?id=tk.toolkeys.mtools).\
 And this can really save your time to get the CRC values by one expression.\
-_**Notice: This is the feature from the full version.**_
+&#xNAN;_**Notice: This is the feature from the full version.**_
 
 ## Byte values
 
@@ -66,6 +66,6 @@ Supported CRC16 algorithm in MTools.
 
 ## CRC-8 / CRC16 in Sniffer
 
-The expression of the last byte `b15` is `CRC-8/MAXIM`, and the results are calculated correctly in a second. 
+The expression of the last byte `b15` is `CRC-8/MAXIM`, and the results are calculated correctly in a second.&#x20;
 
 ![](../.gitbook/assets/1559024659102-1.png)
