@@ -12,7 +12,7 @@ MTools BLE provides the unified operation method for Android and iOS clients, an
 
 ### Steps
 
-1. Go to `Tool` > `Meshtastic Beta` in App.
+1. Go to `Tool` > `Meshtastic®` in App.
 2. Select the device from list and the firmware will be downloaded.
 3. Connect to your nRF52 device.
 4. Start to upload the firmware.
@@ -28,3 +28,7 @@ MTools BLE provides the unified operation method for Android and iOS clients, an
 1. OTA firmware updates come with an increased risk of failure. If the update process fails, your device will be left in a non-working state and require the Drag and Drop actions for recover the firmware.
 2. The legacy DFU service can only provide around 1KB/s speed for data transfer. The speed and remaining time will be show when uploading.
 3. nRF52 devices from RAK are able to accept OTA firmware updates from a mobile device over bluetooth. Older T-Echo bootloaders do not have OTA support.
+
+### Trademark
+
+Meshtastic® is a registered trademark of Meshtastic LLC.
