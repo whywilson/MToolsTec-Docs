@@ -1,8 +1,8 @@
-# 帮助与信息 \| MTools Lite
+# 帮助与信息 | MTools BLE
 
 ## 概述
 
-MTools Lite 是一款轻量级别的 MTools 系列软件，他支持通过内置 NFC 与 蓝牙RFID 读写器对 IOS14443 类型卡片进行读写操作。MTools Lite 由 Flutter 开发，同时支持 Android 与 iOS版本。
+MTools BLE 是一款以BLE 外设为主的的 MTools 系列软件，他支持通过内置 NFC 与 蓝牙RFID 读写器对 IOS14443 类型卡片进行读写操作。MTools BLE 由 Flutter 开发，同时支持 Android 与 iOS版本。
 
 ## 限制
 
@@ -13,4 +13,3 @@ MTools Lite 是一款轻量级别的 MTools 系列软件，他支持通过内置
 ### Android系统
 
 无硬件上的限制。
-

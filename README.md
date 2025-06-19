@@ -2,7 +2,7 @@
 description: MTools 使用指南
 ---
 
-# 帮助与信息 \| MTools
+# 帮助与信息 | MTools
 
 ## 1.概述
 
@@ -10,9 +10,9 @@ MTools 是一款可轻松读取、写入、分析和重置 Mifare Classic 标签
 
 你首先需要什么：
 
-1. 支持读写 `Mifare 1K`的设备 
+1. 支持读写 `Mifare 1K`的设备&#x20;
    * 内置 NFC
-   * USB:  `ACR122U`   `PN532`
+   * USB:  `ACR122U`  `PN532`
    * 蓝牙:  `PN532`
 2. 扇区的密钥A与密钥B
 
@@ -28,7 +28,7 @@ MTools 是一款可轻松读取、写入、分析和重置 Mifare Classic 标签
 
 当在列表界面贴卡时，APP会自动检测卡片类型，并给出基本信息，状态和使用建议。
 
-![MTools &#x6807;&#x7B7E;&#x4FE1;&#x606F;&#x5BF9;&#x8BDD;&#x6846;](.gitbook/assets/mtools-tag-info-dialog.png)
+![MTools 标签信息对话框](.gitbook/assets/mtools-tag-info-dialog.png)
 
 ### 3.1 添加卡片
 
@@ -49,7 +49,7 @@ MTools 是一款可轻松读取、写入、分析和重置 Mifare Classic 标签
 ### 3.5 导入文件
 
 * \*.mto 文件是包含卡片信息，密钥和规则的特殊的 JSON 文件。
-* \*.mfd \| \*.bin 文件是由 libnfc库读取的 1K Mifare 转储文件。
+* \*.mfd | \*.bin 文件是由 libnfc库读取的 1K Mifare 转储文件。
 * \*.mct 文件是由 Mifare Classic Tools 读取的转储文件。
 
 ### 3.6 导出文件
@@ -64,17 +64,17 @@ Supports exporting to  5 types: 支持5种类型的文件导出
 
 ## 4. 详情
 
-![](.gitbook/assets/button_func%20%281%29.jpeg)
+![](<.gitbook/assets/button_func (1).jpeg>)
 
 ### 4.1 添加 & 移除扇区
 
-🆕点击  **+** 浮动按钮并选择 `添加扇区` ，再滑动滑块选择扇区号，并填入有效的密钥A 与密钥B，均为 6 个字节\(12个字符\) 。
+:new:点击 **+** 浮动按钮并选择 `添加扇区` ，再滑动滑块选择扇区号，并填入有效的密钥A 与密钥B，均为 6 个字节(12个字符) 。
 
-◀向右滑动扇区项以移除扇区和密钥。
+:arrow\_backward:向右滑动扇区项以移除扇区和密钥。
 
 ### 4.2 修改密钥
 
-点击 **修改按钮** 将会显示修改密钥对话框， 此时可选择新的扇区或修改现有密钥， 密钥为6个字节\(12个字符\)或为空。点击**完成**保存密钥和扇区号。
+点击 **修改按钮** 将会显示修改密钥对话框， 此时可选择新的扇区或修改现有密钥， 密钥为6个字节(12个字符)或为空。点击**完成**保存密钥和扇区号。
 
 ### 4.3 读取扇区
 
@@ -104,7 +104,7 @@ Supports exporting to  5 types: 支持5种类型的文件导出
 
 > 基础: + - × ÷
 >
-> 求余: \#
+> 求余: #
 >
 > 逻辑 : xor not
 >
@@ -112,7 +112,7 @@ Supports exporting to  5 types: 支持5种类型的文件导出
 >
 > CRC16: crc16ccittfalse, crc16arc, crc16buypass, crc16cdma2000, crc16dds110, crc16dectr, crc16dectx, crc16dnp, crc16en13757, crc16genibus, crc16maxim, crc16mcrf4xx, crc16riello, crc16t10dif, crc16teledisk, crc16tms37157, crc16usb, crca, crc16kermit, crc16modbus, crc16x25, crc16xmodem
 
-[了解更多 &gt;&gt;](mtools-app/help-or-add-expression.md#example)
+[了解更多 >>](mtools-app/help-or-add-expression.md#example)
 
 #### **4.4.2.2 表达式排序**
 
@@ -131,7 +131,7 @@ Supports exporting to  5 types: 支持5种类型的文件导出
 
 ### 4.8 导入转储
 
-点击  **+** 浮动按钮，点击添加转储后，选择文件类型。MTools 所支持的专车类型：
+点击 **+** 浮动按钮，点击添加转储后，选择文件类型。MTools 所支持的专车类型：
 
 {% tabs %}
 {% tab title="mfd" %}
@@ -149,7 +149,7 @@ Supports exporting to  5 types: 支持5种类型的文件导出
 
 ## 5. 从卡片读取
 
-点击  **+** 浮动按钮并选择 **从卡片读取**， 此时可以添加更多的密钥并尝试读取卡片内尽可能多的数据，完成后可以保存数据到转储文件。
+点击 **+** 浮动按钮并选择 **从卡片读取**， 此时可以添加更多的密钥并尝试读取卡片内尽可能多的数据，完成后可以保存数据到转储文件。
 
 ### 5.1 密钥列表
 
@@ -163,20 +163,19 @@ MTools 将会尝试使用密钥列表中的密钥读取卡片尽可能多的扇�
 
 ### 6.1 设置定额
 
-点击 **+** 按钮可以切换成 **=** 定额。 
+点击 **+** 按钮可以切换成 **=** 定额。&#x20;
 
 ### 6.2 预览计算结果
 
-长按**$浮动按钮**可以预览生成的数据和规则信息。
+长&#x6309;**$浮动按钮**可以预览生成的数据和规则信息。
 
 ## 7.依赖
 
 感谢以下朋友们对开源社区的贡献，排名不分先后。
 
-* `ikarus23` [MifareClassicTool](https://github.com/ikarus23/MifareClassicTool)  
-* `afollestad` [material-dialogs](https://github.com/afollestad/material-dialogs)  
-* `markormesher` [android-fab](https://github.com/markormesher/android-fab)  
-* `didikee` [AndroidDonate](https://github.com/didikee/AndroidDonate)  
-* `Ice-Box` [Ice-Box](http://catchingnow.com)  
+* `ikarus23` [MifareClassicTool](https://github.com/ikarus23/MifareClassicTool) &#x20;
+* `afollestad` [material-dialogs](https://github.com/afollestad/material-dialogs) &#x20;
+* `markormesher` [android-fab](https://github.com/markormesher/android-fab) &#x20;
+* `didikee` [AndroidDonate](https://github.com/didikee/AndroidDonate) &#x20;
+* `Ice-Box` [Ice-Box](http://catchingnow.com) &#x20;
 * `uccmawei` [FingerprintIdentify](https://github.com/uccmawei/FingerprintIdentify)
-
